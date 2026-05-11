@@ -102,3 +102,97 @@ print("-" *100)
 
 print("=" *100)
 Esatado = ( 5 == 2 ) or ( 2 > 1 )
+
+print (Esatado)
+
+print("=" *100)
+print("-" *100)
+
+# --------------------------------Ejercicio 8
+print("=" *100)
+
+resultado = (100/5) + (98*5) + (769-582) * 4522 
+print()
+print(resultado)
+print("=" *100)
+print("-" *100)
+
+# ---------------------------------Ejercicio 9
+print("=" *100)
+lado_cuadrado = 8
+
+perimetro_cuadrado = lado_cuadrado * 4
+
+area_cuadrado = lado_cuadrado * lado_cuadrado
+
+print (f"\n 🟥 un lado de un cuadrado mide: {lado_cuadrado} \n")
+
+print (f"El perimetro del cuadradro es: {perimetro_cuadrado} \n")
+
+print(f"El area del cuadrado es: {area_cuadrado} \n")
+
+print("-" *100)
+
+base_triangulo = 9
+altura_triangulo = 8
+lado_uno_triangulo = 8
+lado_dos_triangulo = 8
+
+perimetro_triangulo = base_triangulo + altura_triangulo + lado_uno_triangulo
+area_triangulo = (base_triangulo * altura_triangulo) / 2
+
+print (f"\n 🔺 la base de un triangulo es de: {base_triangulo}, la altrura es de: {altura_triangulo}, y su lado es de: {lado_uno_triangulo} \n")
+print(f"el perimetro del triangulo es de: {perimetro_triangulo} \n")
+print(f"el area del triangulo es de: {area_triangulo} \n")
+
+print("-" *100)
+
+base_rectangulo = 8
+altura_rectangulo = 6
+
+perimetro_rectangulo = (base_rectangulo + altura_rectangulo) * 2
+area_rectangulo = base_rectangulo * altura_rectangulo
+
+print(f"\n ✉️  la base de un rectangulo es de: {base_rectangulo} y la altura es de: {altura_rectangulo} \n")
+print(f"El perimetro del rectangulo es de: {perimetro_rectangulo} \n")
+print(f"El area del rectangulo es de: {area_rectangulo} \n")
+
+print("=" *100)
+print("-" *100)
+
+# -----------------------------------Ejerccio 10
+
+print("=" *100)
+
+rango_edad = int(input("Ingresa tu edad para determinar la categoria en la que perteneces:"))
+
+
+if rango_edad < 0 :
+    print("Error ingresa una edad valida")
+
+elif rango_edad >= 0 and rango_edad <= 5:
+        print("tu categoria es infante 👶🏻")
+
+elif rango_edad >= 6 and rango_edad <= 10:
+        print("tu categoria es niño 👦🏻") 
+
+elif rango_edad >= 11 and rango_edad <= 15:
+        print("tu categoria es preadolescente 👩🏻‍🦱") 
+
+elif rango_edad >= 16 and rango_edad <= 18:
+        print("tu categoria es adolescente 👨🏻 ")
+
+elif rango_edad >= 19 and rango_edad <= 25:
+        print("tu categoria es pre adulto 🧔🏻")
+
+elif rango_edad >= 26 and rango_edad <= 40:
+        print("tu categoria es adulto 🧔🏻‍♂️")
+
+elif rango_edad >= 41 and rango_edad <= 55:
+        print("tu categoria es preanciano 👨🏻‍🦳")
+
+else:
+    print("tu categoria es anciano 👴🏻")
+
+print("=" *100)
+
